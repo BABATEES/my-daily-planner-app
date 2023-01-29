@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Work Day Scheduler</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
 
 <body>
   <header class="jumbotron">
@@ -21,67 +30,55 @@
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
+    <div class="time-block">
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="9AM"> 9am </div>
+        <div class="col my-col col-a1 textarea"> </div>
+        <div class="col my-col col-a1 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-b1 colorstyle" id="10AM"> 10am </div>
+        <div class="col my-col col-b2 textarea"> </div>
+        <div class="col my-col col-b3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-c1 colorstyle" id="11AM"> 11am </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col col col-a1 colorstyle" id="12AM"> 12am </div>
+        <div class="col col col-a2 textarea"> </div>
+        <div class="col col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="1PM"> 1pm </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="2PM"> 2pm </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="3PM"> 3pm </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="4PM"> 4pm </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+      <div class="row">
+        <div class="col my-col col-a1 colorstyle" id="5PM"> 5pm </div>
+        <div class="col my-col col-a2 textarea"> </div>
+        <div class="col my-col col-a3 saveBtn"> </div>
+      </div>
+    </div>
+  </div>
 
-  <div class="time-block">
-  <div id="9" class="row task-info">
-    <div class="col-1 hour my-auto">9AM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="10" class="row task-info">
-    <div class="col-1 hour my-auto">10AM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="11" class="row task-info">
-    <div class="col-1 hour my-auto">11AM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn">
-    </button>
-  </div>
-  <div id="12" class="row task-info future">
-    <div class="col-1 hour my-auto">12PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="13" class="row task-info present">
-    <div class="col-1 hour my-auto">1PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="14" class="row task-info past">
-    <div class="col-1 hour my-auto">2PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="15" class="row task-info">
-    <div class="col-1 hour my-auto">3PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="16" class="row task-info">
-    <div class="col-1 hour my-auto">4PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-  <div id="17" class="row task-info">
-    <div class="col-1 hour my-auto">5PM</div>
-    <div class="col task"></div>
-    <button class="col-1 saveBtn ">
-    </button>
-  </div>
-</div>
-</div>
-    
-     
-      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="js\file.js"></script>
