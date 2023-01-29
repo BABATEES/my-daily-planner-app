@@ -20,5 +20,4 @@ https://babatees.github.io/my-daily-planner-app/
 
 ## Screenshot
 
-my-daily-planner-app\images\05-third-party-apis-homework-demo.gif
-
+![Screenshot my daily planner -app](https://user-images.githubusercontent.com/117184606/215341328-4599f43c-4769-4a89-99af-8ef44bc20334.PNG)
